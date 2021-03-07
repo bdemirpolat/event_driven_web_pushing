@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+
+<html>
+<body>
+<div id="data"></div>
+<script type="text/javascript">
+    if (typeof (EventSource) !== "undefined") {
+        var source = new EventSource("http://localhost:3001/get-info");
+        source.onmessage = function (e) {
+            document.getElementById("data").innerHTML = e.data;
+        };
+    } else {
+        document.getElementById("data").innerHTML = "Tarayıcı bu özelliği desteklemiyor.";
+    }
+</script>
+</body>
+</html>
