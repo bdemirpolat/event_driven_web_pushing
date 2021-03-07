@@ -1,0 +1,2 @@
+Related Medium Post<br>
+[https://bdemirpolat.medium.com/go-ile-event-driven-web-pushing-rabbitmq-sse-782a25b887d3](https://bdemirpolat.medium.com/go-ile-event-driven-web-pushing-rabbitmq-sse-782a25b887d3)
